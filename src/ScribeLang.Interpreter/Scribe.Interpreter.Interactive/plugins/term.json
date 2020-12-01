@@ -1,0 +1,873 @@
+{
+  "ClassName": "Console",
+  "Alias": "term",
+  "AssemblyName": "System.Console, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+  "Methods": [
+    {
+      "MethodName": "WriteLine",
+      "Alias": "log",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "String"
+        }
+      ]
+    },
+    {
+      "MethodName": "WriteLine",
+      "alias": "log",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg0",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "WriteLine",
+      "alias": "log",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg0",
+          "Type": "Object"
+        },
+        {
+          "Name": "arg1",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "WriteLine",
+      "alias": "log",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg0",
+          "Type": "Object"
+        },
+        {
+          "Name": "arg1",
+          "Type": "Object"
+        },
+        {
+          "Name": "arg2",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "WriteLine",
+      "alias": "log",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg",
+          "Type": "Object[]"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg0",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg0",
+          "Type": "Object"
+        },
+        {
+          "Name": "arg1",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg0",
+          "Type": "Object"
+        },
+        {
+          "Name": "arg1",
+          "Type": "Object"
+        },
+        {
+          "Name": "arg2",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "format",
+          "Type": "String"
+        },
+        {
+          "Name": "arg",
+          "Type": "Object[]"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Boolean"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Char"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "buffer",
+          "Type": "Char[]"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "buffer",
+          "Type": "Char[]"
+        },
+        {
+          "Name": "index",
+          "Type": "Int32"
+        },
+        {
+          "Name": "count",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Double"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Decimal"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Single"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "UInt32"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int64"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "UInt64"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Object"
+        }
+      ]
+    },
+    {
+      "MethodName": "Write",
+      "Alias": "Write",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "String"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_In",
+      "Alias": "get_In",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_InputEncoding",
+      "Alias": "get_InputEncoding",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_InputEncoding",
+      "Alias": "set_InputEncoding",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Encoding"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_OutputEncoding",
+      "Alias": "get_OutputEncoding",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_OutputEncoding",
+      "Alias": "set_OutputEncoding",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Encoding"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_KeyAvailable",
+      "Alias": "get_KeyAvailable",
+      "Parameters": []
+    },
+    {
+      "MethodName": "ReadKey",
+      "Alias": "ReadKey",
+      "Parameters": []
+    },
+    {
+      "MethodName": "ReadKey",
+      "Alias": "ReadKey",
+      "Parameters": [
+        {
+          "Name": "intercept",
+          "Type": "Boolean"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_Out",
+      "Alias": "get_Out",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_Error",
+      "Alias": "get_Error",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_IsInputRedirected",
+      "Alias": "get_IsInputRedirected",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_IsOutputRedirected",
+      "Alias": "get_IsOutputRedirected",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_IsErrorRedirected",
+      "Alias": "get_IsErrorRedirected",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_CursorSize",
+      "Alias": "get_CursorSize",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_CursorSize",
+      "Alias": "set_CursorSize",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_NumberLock",
+      "Alias": "get_NumberLock",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_CapsLock",
+      "Alias": "get_CapsLock",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_BackgroundColor",
+      "Alias": "get_BackgroundColor",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_BackgroundColor",
+      "Alias": "set_BackgroundColor",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "ConsoleColor"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_ForegroundColor",
+      "Alias": "get_ForegroundColor",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_ForegroundColor",
+      "Alias": "fgColor",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "ConsoleColor"
+        }
+      ]
+    },
+    {
+      "MethodName": "ResetColor",
+      "Alias": "ResetColor",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_BufferWidth",
+      "Alias": "get_BufferWidth",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_BufferWidth",
+      "Alias": "set_BufferWidth",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_BufferHeight",
+      "Alias": "get_BufferHeight",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_BufferHeight",
+      "Alias": "set_BufferHeight",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "SetBufferSize",
+      "Alias": "SetBufferSize",
+      "Parameters": [
+        {
+          "Name": "width",
+          "Type": "Int32"
+        },
+        {
+          "Name": "height",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_WindowLeft",
+      "Alias": "get_WindowLeft",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_WindowLeft",
+      "Alias": "set_WindowLeft",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_WindowTop",
+      "Alias": "get_WindowTop",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_WindowTop",
+      "Alias": "set_WindowTop",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_WindowWidth",
+      "Alias": "get_WindowWidth",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_WindowWidth",
+      "Alias": "set_WindowWidth",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_WindowHeight",
+      "Alias": "get_WindowHeight",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_WindowHeight",
+      "Alias": "set_WindowHeight",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "SetWindowPosition",
+      "Alias": "SetWindowPosition",
+      "Parameters": [
+        {
+          "Name": "left",
+          "Type": "Int32"
+        },
+        {
+          "Name": "top",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "SetWindowSize",
+      "Alias": "SetWindowSize",
+      "Parameters": [
+        {
+          "Name": "width",
+          "Type": "Int32"
+        },
+        {
+          "Name": "height",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_LargestWindowWidth",
+      "Alias": "get_LargestWindowWidth",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_LargestWindowHeight",
+      "Alias": "get_LargestWindowHeight",
+      "Parameters": []
+    },
+    {
+      "MethodName": "get_CursorVisible",
+      "Alias": "get_CursorVisible",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_CursorVisible",
+      "Alias": "set_CursorVisible",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Boolean"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_CursorLeft",
+      "Alias": "get_CursorLeft",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_CursorLeft",
+      "Alias": "set_CursorLeft",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_CursorTop",
+      "Alias": "get_CursorTop",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_CursorTop",
+      "Alias": "set_CursorTop",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_Title",
+      "Alias": "get_Title",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_Title",
+      "Alias": "set_Title",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "String"
+        }
+      ]
+    },
+    {
+      "MethodName": "Beep",
+      "Alias": "beep",
+      "Parameters": []
+    },
+    {
+      "MethodName": "Beep",
+      "Alias": "beep",
+      "Parameters": [
+        {
+          "Name": "frequency",
+          "Type": "Int32"
+        },
+        {
+          "Name": "duration",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "MoveBufferArea",
+      "Alias": "MoveBufferArea",
+      "Parameters": [
+        {
+          "Name": "sourceLeft",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceTop",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceWidth",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceHeight",
+          "Type": "Int32"
+        },
+        {
+          "Name": "targetLeft",
+          "Type": "Int32"
+        },
+        {
+          "Name": "targetTop",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "MoveBufferArea",
+      "Alias": "MoveBufferArea",
+      "Parameters": [
+        {
+          "Name": "sourceLeft",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceTop",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceWidth",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceHeight",
+          "Type": "Int32"
+        },
+        {
+          "Name": "targetLeft",
+          "Type": "Int32"
+        },
+        {
+          "Name": "targetTop",
+          "Type": "Int32"
+        },
+        {
+          "Name": "sourceChar",
+          "Type": "Char"
+        },
+        {
+          "Name": "sourceForeColor",
+          "Type": "ConsoleColor"
+        },
+        {
+          "Name": "sourceBackColor",
+          "Type": "ConsoleColor"
+        }
+      ]
+    },
+    {
+      "MethodName": "Clear",
+      "Alias": "clear",
+      "Parameters": []
+    },
+    {
+      "MethodName": "SetCursorPosition",
+      "Alias": "SetCursorPosition",
+      "Parameters": [
+        {
+          "Name": "left",
+          "Type": "Int32"
+        },
+        {
+          "Name": "top",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "add_CancelKeyPress",
+      "Alias": "add_CancelKeyPress",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "ConsoleCancelEventHandler"
+        }
+      ]
+    },
+    {
+      "MethodName": "remove_CancelKeyPress",
+      "Alias": "remove_CancelKeyPress",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "ConsoleCancelEventHandler"
+        }
+      ]
+    },
+    {
+      "MethodName": "get_TreatControlCAsInput",
+      "Alias": "get_TreatControlCAsInput",
+      "Parameters": []
+    },
+    {
+      "MethodName": "set_TreatControlCAsInput",
+      "Alias": "set_TreatControlCAsInput",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Boolean"
+        }
+      ]
+    },
+    {
+      "MethodName": "OpenStandardInput",
+      "Alias": "OpenStandardInput",
+      "Parameters": []
+    },
+    {
+      "MethodName": "OpenStandardInput",
+      "Alias": "OpenStandardInput",
+      "Parameters": [
+        {
+          "Name": "bufferSize",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "OpenStandardOutput",
+      "Alias": "OpenStandardOutput",
+      "Parameters": []
+    },
+    {
+      "MethodName": "OpenStandardOutput",
+      "Alias": "OpenStandardOutput",
+      "Parameters": [
+        {
+          "Name": "bufferSize",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "OpenStandardError",
+      "Alias": "OpenStandardError",
+      "Parameters": []
+    },
+    {
+      "MethodName": "OpenStandardError",
+      "Alias": "OpenStandardError",
+      "Parameters": [
+        {
+          "Name": "bufferSize",
+          "Type": "Int32"
+        }
+      ]
+    },
+    {
+      "MethodName": "SetIn",
+      "Alias": "SetIn",
+      "Parameters": [
+        {
+          "Name": "newIn",
+          "Type": "TextReader"
+        }
+      ]
+    },
+    {
+      "MethodName": "SetOut",
+      "Alias": "SetOut",
+      "Parameters": [
+        {
+          "Name": "newOut",
+          "Type": "TextWriter"
+        }
+      ]
+    },
+    {
+      "MethodName": "SetError",
+      "Alias": "SetError",
+      "Parameters": [
+        {
+          "Name": "newError",
+          "Type": "TextWriter"
+        }
+      ]
+    },
+    {
+      "MethodName": "Read",
+      "Alias": "Read",
+      "Parameters": []
+    },
+    {
+      "MethodName": "ReadLine",
+      "Alias": "ReadLine",
+      "Parameters": []
+    },
+    {
+      "MethodName": "WriteLine",
+      "Alias": "log",
+      "Parameters": [
+        {
+          "Name": "value",
+          "Type": "Object"
+        }
+      ]
+    }
+  ]
+}
