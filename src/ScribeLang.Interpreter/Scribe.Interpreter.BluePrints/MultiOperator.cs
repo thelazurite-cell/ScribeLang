@@ -1,4 +1,4 @@
-namespace Churva.Interpreter.BluePrints
+namespace Scribe.Interpreter.BluePrints
 {
     public enum MultiOperator
     {

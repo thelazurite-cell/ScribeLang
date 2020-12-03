@@ -5,117 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="283cc4b5-53de-4cc6-8a51-29e722f8351e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/AssemblyExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Attributes/KeywordAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ChurvaEnvironment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IFlowControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IKeyword.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IValueType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/ValueType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ItemScope.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/MultiOperator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Plugins/Plugin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/RuntimeException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/SingleOperator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Each.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/If.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Ternary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/While.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/for.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/InterpreterBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Boo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F128.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F32.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F64.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I08.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I16.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I32.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I64.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Null.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Str.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U08.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U16.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U32.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U64.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/plugins/term.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Documentation/Churva Documentation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examples/ListNamesFromFile.ch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Examples/NameAndAge.ch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interpreter/Plan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TODO.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Churva.Interpreter.Cli/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/AssemblyExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Attributes/KeywordAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Churva.Interpreter.BluePrints.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/ChurvaEnvironment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Interfaces/FlowControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Interfaces/IFlowControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Interfaces/IKeyword.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Interfaces/IValueType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/Interfaces/ValueType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/MultiOperator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/ReflectionHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/RuntimeException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/SingleOperator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/obj/Churva.Interpreter.BluePrints.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/obj/Churva.Interpreter.BluePrints.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/obj/Churva.Interpreter.BluePrints.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/obj/Debug/netcoreapp3.0/Churva.Interpreter.BluePrints.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.BluePrints/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli.sln.DotSettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/Churva.Interpreter.Cli.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/Churva.Interpreter.Cli.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/Churva.Interpreter.Cli.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/Churva.Interpreter.Cli.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/Debug/netcoreapp3.0/Churva.Interpreter.Cli.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/Debug/netcoreapp3.0/Churva.Interpreter.Cli.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Cli/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Churva.Interpreter.Core.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Flow/Each.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Flow/If.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Flow/Sub.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Flow/Ternary.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Flow/While.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Flow/for.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/F/F128.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/F/F32.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/F/F64.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/I/I08.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/I/I16.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/I/I32.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/I/I64.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/Null.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/Str.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/U/U08.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/U/U16.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/U/U32.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/U/U64.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/Type/Var.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/obj/Churva.Interpreter.Core.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/obj/Churva.Interpreter.Core.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/obj/Churva.Interpreter.Core.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/obj/Debug/netcoreapp3.0/Churva.Interpreter.Core.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Churva.Interpreter.Core/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/AssemblyExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/AssemblyExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Attributes/KeywordAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Attributes/KeywordAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ChurvaEnvironment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ScribeEnvironment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IFlowControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IFlowControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IKeyword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IKeyword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IValueType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IValueType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/ValueType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/ValueType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ItemScope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ItemScope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/MultiOperator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/MultiOperator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Plugins/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Plugins/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/RuntimeException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/RuntimeException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/SingleOperator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/SingleOperator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Each.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Each.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/If.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/If.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Ternary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Ternary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/While.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/While.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/for.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/for.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/InterpreterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/InterpreterBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Boo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Boo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F128.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F128.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F32.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F32.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F64.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F64.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I08.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I08.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I16.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I16.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I32.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I32.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I64.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I64.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Null.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Null.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Str.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Str.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U08.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U08.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U16.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U16.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U32.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U32.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U64.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U64.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/plugins/term.json" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/plugins/term.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +66,11 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/../../Documentation/Churva Documentation.md" />
       <option value="$PROJECT_DIR$/../../README.md" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ScribeEnvironment.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l4erXtDO9YxppYvPPE5rYEV9Zv" />
@@ -182,13 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1606860995551</updated>
       <workItem from="1606861004579" duration="1983000" />
+      <workItem from="1606986224169" duration="96000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -200,6 +143,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-using Churva.Interpreter.BluePrints;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.Core.Type.I
+namespace Scribe.Interpreter.Core.Type.I
 {
     [Keyword(Words = new[] {"i64"})]
     public class I64 : ValueType<long>

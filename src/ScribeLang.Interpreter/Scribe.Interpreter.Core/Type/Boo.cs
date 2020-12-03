@@ -1,9 +1,8 @@
-using System;
-using Churva.Interpreter.BluePrints;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.Core.Type.F
+namespace Scribe.Interpreter.Core.Type
 {
     [Keyword(Words = new[] {"boo","bool","true","false"})]
     public class Boo : ValueType<bool>
@@ -14,15 +13,15 @@ namespace Churva.Interpreter.Core.Type.F
         {
             if (string.IsNullOrWhiteSpace(obj.ToString()))
                 throw new RuntimeException("ERROR: Expected a Value");
-            if (!bool.TryParse(obj.ToString(), out _value))
+            if (!bool.TryParse(obj.ToString(), out this._value))
                 throw new RuntimeException("ERROR: Not a number");
             return true;
         }
 
         public override bool Value
         {
-            get => _value;
-            set => _value = value;
+            get => this._value;
+            set => this._value = value;
         }
     }
 }

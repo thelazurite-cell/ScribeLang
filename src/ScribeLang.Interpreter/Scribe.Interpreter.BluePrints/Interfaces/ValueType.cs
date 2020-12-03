@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using static Churva.Interpreter.BluePrints.ChurvaEnvironment;
+using static Scribe.Interpreter.BluePrints.ScribeEnvironment;
 
-namespace Churva.Interpreter.BluePrints.Interfaces
+namespace Scribe.Interpreter.BluePrints.Interfaces
 {
     public abstract class ValueType<T> : IValueType<T>
     {

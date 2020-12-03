@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\dylan.eddies\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\dylan.eddies\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Scribe.Interpreter.1729593876.00" t="ExcludeRecursive" />
-    <e p="C:\Users\dylan.eddies\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\dylan.eddies\RiderProjects\Churva\Churva\README.md" t="Include" />
-    <e p="C:\Users\dylan.eddies\RiderProjects\Churva\Churva\src\Churva.Interpreter.Cli" t="IncludeFlat">
+    <e p="C:\caffeine\mycr\ScribeLang\README.md" t="Include" />
+    <e p="C:\caffeine\mycr\ScribeLang\src\ScribeLang.Interpreter" t="IncludeFlat">
       <e p="Docs" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Scribe.Interpreter.BluePrints" t="IncludeRecursive">
@@ -14,7 +11,6 @@
           <e p="KeywordAttribute.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ChurvaEnvironment.cs" t="Include" />
         <e p="Interfaces" t="Include">
           <e p="IFlowControl.cs" t="Include" />
           <e p="IKeyword.cs" t="Include" />
@@ -36,6 +32,7 @@
         <e p="ReflectionHelper.cs" t="Include" />
         <e p="RuntimeException.cs" t="Include" />
         <e p="Scribe.Interpreter.BluePrints.csproj" t="IncludeRecursive" />
+        <e p="ScribeEnvironment.cs" t="Include" />
         <e p="SingleOperator.cs" t="Include" />
       </e>
       <e p="Scribe.Interpreter.Core" t="IncludeRecursive">
@@ -97,5 +94,8 @@
       </e>
       <e p="Scribe.Interpreter.sln" t="IncludeFlat" />
     </e>
+    <e p="C:\Users\dylan.eddies\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dylan.eddies\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Scribe.Interpreter.1402478825.00" t="ExcludeRecursive" />
+    <e p="C:\Users\dylan.eddies\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
   </component>
 </project>

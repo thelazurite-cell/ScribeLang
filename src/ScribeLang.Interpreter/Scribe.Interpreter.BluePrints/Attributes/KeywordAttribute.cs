@@ -1,6 +1,6 @@
 using System;
 
-namespace Churva.Interpreter.BluePrints.Attributes
+namespace Scribe.Interpreter.BluePrints.Attributes
 {
     public class KeywordAttribute: Attribute
     {

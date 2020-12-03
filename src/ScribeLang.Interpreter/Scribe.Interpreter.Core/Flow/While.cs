@@ -1,8 +1,8 @@
 using System;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.Core.Flow
+namespace Scribe.Interpreter.Core.Flow
 {
     [Keyword(Words = new []{"while"})]
     public class While: IFlowControl

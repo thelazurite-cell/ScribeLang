@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text.Json;
-using Churva.Interpreter.BluePrints;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
-using Churva.Interpreter.BluePrints.Plugins;
-using Churva.Interpreter.Core;
+using Scribe.Interpreter.BluePrints;
+using Scribe.Interpreter.Core;
 
-namespace Churva.Interpreter.Interactive
+namespace Scribe.Interpreter.Cli
 {
     /// <summary>
     /// The main class of the application

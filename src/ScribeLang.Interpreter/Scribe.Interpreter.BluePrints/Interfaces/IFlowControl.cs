@@ -1,4 +1,4 @@
-namespace Churva.Interpreter.BluePrints.Interfaces
+namespace Scribe.Interpreter.BluePrints.Interfaces
 {
     public interface IFlowControl: IKeyword
     {

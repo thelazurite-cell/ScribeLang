@@ -1,8 +1,8 @@
 using System;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.Core.Type
+namespace Scribe.Interpreter.Core.Type
 {
     [Keyword(Words = new []{"nul"})]
     public class Nul: ValueType<object>, IKeyword

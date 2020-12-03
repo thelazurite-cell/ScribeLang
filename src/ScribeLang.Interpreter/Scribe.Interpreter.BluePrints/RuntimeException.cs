@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Churva.Interpreter.BluePrints
+namespace Scribe.Interpreter.BluePrints
 {
     public class RuntimeException: Exception
     {

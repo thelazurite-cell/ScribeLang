@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text.Json;
-using Churva.Interpreter.BluePrints;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
-using Churva.Interpreter.BluePrints.Plugins;
-using static Churva.Interpreter.BluePrints.ChurvaEnvironment;
+using Scribe.Interpreter.BluePrints;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints.Plugins;
+using static Scribe.Interpreter.BluePrints.ScribeEnvironment;
 
-namespace Churva.Interpreter.Core
+namespace Scribe.Interpreter.Core
 {
     public class InterpreterBehaviour
     {

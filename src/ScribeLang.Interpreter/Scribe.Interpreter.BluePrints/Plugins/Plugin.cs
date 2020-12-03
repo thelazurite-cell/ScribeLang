@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Churva.Interpreter.BluePrints.Plugins
+namespace Scribe.Interpreter.BluePrints.Plugins
 {
     public class Plugin
     {

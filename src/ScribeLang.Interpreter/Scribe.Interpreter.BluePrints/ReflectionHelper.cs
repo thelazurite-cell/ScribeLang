@@ -1,9 +1,7 @@
 using System;
 using System.Linq;
-using System.Reflection;
-using Churva.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.BluePrints
+namespace Scribe.Interpreter.BluePrints
 {
     public static class ReflectionHelper
     {

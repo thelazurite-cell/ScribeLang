@@ -1,9 +1,9 @@
 using System;
-using Churva.Interpreter.BluePrints;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.Core.Type.U
+namespace Scribe.Interpreter.Core.Type.U
 {
     [Keyword(Words = new []{"u16"})]
     public class U16:ValueType<ushort>

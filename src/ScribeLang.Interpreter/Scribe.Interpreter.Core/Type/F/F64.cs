@@ -1,9 +1,9 @@
 using System;
-using Churva.Interpreter.BluePrints;
-using Churva.Interpreter.BluePrints.Attributes;
-using Churva.Interpreter.BluePrints.Interfaces;
+using Scribe.Interpreter.BluePrints;
+using Scribe.Interpreter.BluePrints.Attributes;
+using Scribe.Interpreter.BluePrints.Interfaces;
 
-namespace Churva.Interpreter.Core.Type.F
+namespace Scribe.Interpreter.Core.Type.F
 {
     [Keyword(Words = new[] {"f64"})]
     public class F64 : ValueType<double>
