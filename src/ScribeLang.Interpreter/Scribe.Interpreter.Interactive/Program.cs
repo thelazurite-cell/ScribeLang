@@ -53,10 +53,7 @@ namespace Scribe.Interpreter.Cli
                     }
 
                     if ((!multiLine || currentLine != _run) && multiLine) continue;
-                    foreach (var line in lines)
-                    {
-                        InterpreterBehaviour.ExecuteLine(line);
-                    }
+                    InterpreterBehaviour.ExecuteLines(lines);
 
                     lines.Clear();
                 }

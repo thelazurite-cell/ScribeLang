@@ -49,6 +49,14 @@ namespace Scribe.Interpreter.Core
             }
         }
 
+        public static void ExecuteLines(IEnumerable<string> lines)
+        {
+            foreach (var line in lines)
+            {
+                ExecuteLine(line);
+            }
+        }
+
         public static void ExecuteLine(string line)
         {
             line = line.Trim().Replace("\t", string.Empty);
@@ -72,10 +80,7 @@ namespace Scribe.Interpreter.Core
             tmp = tmp.Replace($"{mthd.Alias}", "");
             if (tmp.StartsWith("(") && tmp.EndsWith(")"))
             {
-                var args = new List<string>();
-                tmp = ProcessGroup(tmp, args);
-
-                AttemptPluginExecution(plg, mthd, args.ToArray());
+                AttemptPluginExecution(plg, mthd, ProcessGroup(tmp).ToArray());
             }
             else
             {
@@ -112,8 +117,9 @@ namespace Scribe.Interpreter.Core
             return matched;
         }
 
-        private static string ProcessGroup(string tmp, List<string> args)
+        private static IEnumerable<string> ProcessGroup(string tmp)
         {
+            var args = new List<string>();
             tmp = RemoveGroupingOperators(tmp);
 
             while (!string.IsNullOrWhiteSpace(tmp))
@@ -123,7 +129,7 @@ namespace Scribe.Interpreter.Core
                     : ProcessNonStringParameter(tmp, args);
             }
 
-            return tmp;
+            return args;
         }
 
         private static string ProcessNonStringParameter(string tmp, List<string> args)

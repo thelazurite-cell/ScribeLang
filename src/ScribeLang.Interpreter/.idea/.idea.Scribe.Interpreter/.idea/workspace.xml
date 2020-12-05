@@ -7,6 +7,7 @@
     <list default="true" id="283cc4b5-53de-4cc6-8a51-29e722f8351e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/modules.xml" afterDir="false" />
@@ -15,8 +16,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scribe.Interpreter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/AssemblyExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/AssemblyExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Attributes/KeywordAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Attributes/KeywordAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ChurvaEnvironment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ScribeEnvironment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IFlowControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IFlowControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IKeyword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IKeyword.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IValueType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IValueType.cs" afterDir="false" />
@@ -26,32 +25,21 @@
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Plugins/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Plugins/Plugin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/RuntimeException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/RuntimeException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/SingleOperator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/SingleOperator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Each.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Each.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/If.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/If.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Def.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Ternary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Ternary.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/While.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/While.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/for.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/for.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/InterpreterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/InterpreterBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Boo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Boo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F128.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F128.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F32.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F32.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F64.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/F/F64.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I08.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I08.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I16.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I16.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I32.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I32.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I64.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/I/I64.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Null.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Null.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Str.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/Str.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U08.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U08.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U16.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U16.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U32.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U32.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U64.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Core/Type/U/U64.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/plugins/term.json" beforeDir="false" afterPath="$PROJECT_DIR$/Scribe.Interpreter.Interactive/plugins/term.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,15 +50,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F1DE3EF6-EE6A-41A4-A5DE-303C8CB1A7F5/32E/Path.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/../../Documentation/Churva Documentation.md" />
-      <option value="$PROJECT_DIR$/../../README.md" />
-      <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ScribeEnvironment.cs" />
       <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Scribe.Interpreter.BluePrints.csproj" />
       <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/Scribe.Interpreter.Core.csproj" />
       <option value="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Scribe.Interpreter.Interactive.csproj" />
       <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ReflectionHelper.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/ScribeEnvironment.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Interactive/Program.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/for.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/While.cs" />
+      <option value="$PROJECT_DIR$/../../README.md" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Sub.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.BluePrints/Interfaces/IKeyword.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/Flow/Def.cs" />
+      <option value="$PROJECT_DIR$/Scribe.Interpreter.Core/InterpreterBehaviour.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l4erXtDO9YxppYvPPE5rYEV9Zv" />
@@ -92,6 +90,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -124,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606860995551</updated>
       <workItem from="1606861004579" duration="1983000" />
-      <workItem from="1606986224169" duration="96000" />
+      <workItem from="1606986224169" duration="267000" />
+      <workItem from="1607040362504" duration="1801000" />
+      <workItem from="1607093237922" duration="7357000" />
     </task>
     <servers />
   </component>

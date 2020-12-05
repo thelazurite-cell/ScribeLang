@@ -8,7 +8,7 @@ namespace Scribe.Interpreter.Core.Flow
     public class Each: IFlowControl
     {
         public string InstanceName { get; set; }
-        public bool Validate(string[] strings)
+        public bool Validate(string[] lines)
         {
             throw new NotImplementedException();
         }

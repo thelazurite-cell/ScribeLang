@@ -31,10 +31,10 @@ namespace Scribe.Interpreter.BluePrints.Interfaces
         public virtual T Value { get; set; }
         public virtual string InstanceName { get; set; }
 
-        public virtual bool Validate(string[] strings)
+        public virtual bool Validate(string[] lines)
         {
-            if (!strings.Any()) return false;
-            var ret = ParseValueInstance(this, strings);
+            if (!lines.Any()) return false;
+            var ret = ParseValueInstance(this, lines);
             this.InstanceName = ret[0];
             if (this.SetValueByObject(ret[1]))
             {

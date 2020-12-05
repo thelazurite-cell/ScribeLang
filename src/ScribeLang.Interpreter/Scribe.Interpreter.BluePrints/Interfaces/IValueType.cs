@@ -8,7 +8,7 @@ namespace Scribe.Interpreter.BluePrints.Interfaces
         bool SetValueByObject(object obj);
 #pragma warning disable 108,114
         // Required not to be newed up for reflection targeting
-        bool Validate(string[] strings);
+        bool Validate(string[] lines);
 #pragma warning restore 108,114
     }
     

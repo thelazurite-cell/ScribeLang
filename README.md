@@ -36,7 +36,7 @@ Multi-line:
 
     def func sum(i32 a, i32 b): i32 
         i32 sum = a + b
-        => sum
+        => $sum
 
 Evaluate subroutine with arguments: `sum(1, $arg2)`
 

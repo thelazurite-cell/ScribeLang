@@ -38,10 +38,10 @@
       <e p="Scribe.Interpreter.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Flow" t="Include">
+          <e p="Def.cs" t="Include" />
           <e p="Each.cs" t="Include" />
           <e p="for.cs" t="Include" />
           <e p="If.cs" t="Include" />
-          <e p="Sub.cs" t="Include" />
           <e p="Ternary.cs" t="Include" />
           <e p="While.cs" t="Include" />
         </e>
